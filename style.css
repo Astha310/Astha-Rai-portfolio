@@ -1,0 +1,21 @@
+/* Basic page styling */
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+}
+
+section {
+    margin: 40px 0;
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+}
