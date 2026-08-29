@@ -262,3 +262,64 @@ footer {
     background: white;
     color: #222;
 }
+/* Day 7 - Responsive Design */
+
+@media (max-width: 768px) {
+
+    /* Navbar */
+    .navbar {
+        flex-direction: column;
+        padding: 20px;
+        gap: 15px;
+    }
+
+    .nav-links {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    /* Hero */
+    .hero {
+        flex-direction: column;
+        text-align: center;
+        margin: 25px 15px;
+        padding: 25px;
+    }
+
+    .hero-image {
+        order: -1;
+    }
+
+    /* Projects */
+    .projects-section {
+        margin: 30px 15px;
+        padding: 25px;
+    }
+
+    .projects-grid {
+        grid-template-columns: 1fr;
+    }
+
+    /* About */
+    .about-section {
+        margin: 30px 15px;
+        padding: 25px;
+    }
+
+    /* Skills */
+    .skills-section {
+        margin: 30px 15px;
+        padding: 25px;
+    }
+
+    .skills-list {
+        justify-content: center;
+    }
+
+    /* Contact */
+    .contact-section {
+        margin: 30px 15px;
+        padding: 25px;
+    }
+}
