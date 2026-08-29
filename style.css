@@ -1,10 +1,19 @@
 /* Basic page styling */
+/* Day 8 - Personal Theme */
 
+:root {
+    --primary-color: #6c5ce7;
+    --text-color: #2d3436;
+    --background-color: #f8f7ff;
+    --surface-color: #ffffff;
+    --border-color: #dfe0e6;
+}
 body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
+    
     margin: 0;
-    padding: 20px;
+    font-family: Arial, sans-serif;
+    color: var(--text-color);
+    background-color: var(--background-color);
 }
 
 header {
@@ -322,4 +331,38 @@ footer {
         margin: 30px 15px;
         padding: 25px;
     }
+}
+/* Day 8 - UI Polish */
+
+.cta-button,
+.submit-button,
+.nav-links a,
+.project-link {
+    transition: all 0.3s ease;
+}
+
+.cta-button:hover,
+.submit-button:hover {
+    transform: translateY(-2px);
+}
+
+.nav-links a:hover,
+.project-link:hover {
+    color: var(--primary-color);
+}
+
+.project-card {
+    background-color: var(--surface-color);
+    border-color: var(--border-color);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+.skill-tag {
+    background-color: var(--surface-color);
+    border-color: var(--primary-color);
 }
