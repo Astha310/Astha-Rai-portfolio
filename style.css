@@ -366,3 +366,12 @@ footer {
     background-color: var(--surface-color);
     border-color: var(--primary-color);
 }
+/* Day 9 - Accessibility */
+
+a:focus,
+button:focus,
+input:focus,
+textarea:focus {
+    outline: 3px solid var(--primary-color);
+    outline-offset: 3px;
+}
