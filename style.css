@@ -160,3 +160,42 @@ footer {
 .project-card:hover {
     transform: translateY(-5px);
 }
+/* Day 5 - About & Skills */
+
+.about-section {
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 40px;
+}
+
+.about-section h2 {
+    margin-bottom: 25px;
+}
+
+.about-section p {
+    margin-bottom: 15px;
+    line-height: 1.7;
+}
+
+.skills-section {
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 40px;
+}
+
+.skills-section h2 {
+    margin-bottom: 25px;
+}
+
+.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.skill-tag {
+    padding: 10px 18px;
+    border: 1px solid #222;
+    border-radius: 20px;
+    font-weight: bold;
+}
